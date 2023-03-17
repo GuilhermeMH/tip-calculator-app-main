@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Tip calculator app</title>
+</head>
+<body>
+<header class="header">
+  <img src="images/logo.svg" alt="">
+</header>
+  <main>
+    <section class="box">
+      <div class="bill">
+        <h1 class="bill-title">Bill</h1>
+        <input type="number" class="bill-number" placeholder="$">
+      </div>
+      <div class="select">
+        <h1 class="tip-title">Select Tip %</h1>
+        <div class="custom">
+          <button class="btn">5%</button>
+          <button class="btn">10%</button>
+          <button class="btn">15%</button>
+          <button class="btn">25%</button>
+          <button class="btn">50%</button>
+          <input type="number" class="inputBar" placeholder="Custom" id="btnTipCustom">
+        </div>
+      </div>
+      <div class="number-plp">
+        <h1 class="number-title">Number of People</h1>
+        <input type="number" class="inputBar-people" id="numberPeople" placeholder=" ">
+      </div>
+      <section class="box-2">
+        <div class="total">
+          <h2>Tip Amount <br><p class="text-p">/ person</p></h2>
+          <div class="price"><img src="images/icon-dollar.svg" alt=""><label for="" class=" price-label"> 0.00</label></div>
+        </div>
+        <div class="total">
+          <h2>Total <br><p class="text-p">/ person</p></h2>
+          <div class="price"><img src="images/icon-dollar.svg" alt=""><label type="number" placeholder=" " class=" price-label"> 0.00</label></div>
+        </div>
+        <button class="btn-reset">Reset</button>
+      </section>
+  
+  </section>
+</main>
+  <footer class="footer">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="#" target="_blank">Guilherme Moura</a>.
+    </p>
+  </footer>
+</body>
+</html>
