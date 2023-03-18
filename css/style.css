@@ -139,7 +139,10 @@ h1{
   font-family: "Space Mono";
   font-weight: 600;
 }
-
+#text-warning {
+  display: none;
+  color: red;
+}
 .inputBar-people::placeholder{
   text-align: left;
   padding-left: 1.5rem;
@@ -194,6 +197,7 @@ h2{
   color: #26c2ad;
   width: 20px;
   margin-right: none;
+  position: relative;
   
 }
 
@@ -262,18 +266,18 @@ h2{
   width: 26rem;
   height: 23rem;
   display: grid;
-  grid-template-rows: 4rem 10rem 10rem 10rem;
+  grid-template-rows: 6rem 6rem 6rem 5rem;
 }
 
 .total{
   display: grid;
   grid-template-columns: 15rem 16rem ;
-  padding: 2rem 1rem 1rem 1.5rem;
+  padding: 2rem 2rem 1rem 1.5rem;
 }
 
 .btn-reset {
   width: 24rem;
-  margin: 4rem 2rem 1rem 1rem
+  margin: 7rem 2rem 1rem 1rem
 }
 
 .footer {

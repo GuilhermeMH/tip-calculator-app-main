@@ -19,27 +19,27 @@
     <section class="box">
       <div class="bill">
         <h1 class="bill-title">Bill</h1>
-        <input type="number" class="bill-number" placeholder="$">
+        <input type="number" id="billValue" class="bill-number" placeholder="$">
       </div>
       <div class="select">
         <h1 class="tip-title">Select Tip %</h1>
-        <div class="custom">
-          <button class="btn">5%</button>
-          <button class="btn">10%</button>
-          <button class="btn">15%</button>
-          <button class="btn">25%</button>
-          <button class="btn">50%</button>
+        <div class="custom" id="tipButtons">
+          <button class="btn" id="btnTip5">5%</button>
+          <button class="btn" id="btnTip10">10%</button>
+          <button class="btn" id="btnTip15">15%</button>
+          <button class="btn" id="btnTip25">25%</button>
+          <button class="btn" id="btnTip50">50%</button>
           <input type="number" class="inputBar" placeholder="Custom" id="btnTipCustom">
         </div>
       </div>
       <div class="number-plp">
-        <h1 class="number-title">Number of People</h1>
+        <h1 class="number-title" >Number of People</h1> <span id="text-warning">Can't be zero</span>
         <input type="number" class="inputBar-people" id="numberPeople" placeholder=" ">
       </div>
       <section class="box-2">
         <div class="total">
           <h2>Tip Amount <br><p class="text-p">/ person</p></h2>
-          <div class="price"><img src="images/icon-dollar.svg" alt=""><label for="" class=" price-label"> 0.00</label></div>
+          <div class="price"><img src="images/icon-dollar.svg" alt=""><label for="" class=" price-label" id="tipAmount"> 0.00</label></div>
         </div>
         <div class="total">
           <h2>Total <br><p class="text-p">/ person</p></h2>
@@ -54,5 +54,7 @@
     <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="#" target="_blank">Guilherme Moura</a>.
     </p>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
