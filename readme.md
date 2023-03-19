@@ -17,7 +17,7 @@ Realizei o projeto de uma calculadora de gorgetas e de divisão de contas. Se de
 * HTML
 * CSS Grid
 * Layout responsivo
-*JavaScript
+* JavaScript
 
 ## Autor 
 *
