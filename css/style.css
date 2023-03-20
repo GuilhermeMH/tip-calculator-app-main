@@ -138,6 +138,17 @@ input {
   display: none;
 }
 
+.footer {
+  height: 4rem;
+  display: flex;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer a {
+  color: #00474b;
+}
+
 @media only screen and (min-width: 999px) {
   body {
     display: flex;
@@ -200,5 +211,11 @@ input {
   .reset {
     padding: 13px 0 13px 0;
     margin-top: auto;
+  }
+  
+  .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   }
 }
