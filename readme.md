@@ -1,5 +1,5 @@
-# Título do projeto
-Calculadora de gorgetas
+# Calculadora de gorgetas
+
 
 ## Começando
 
